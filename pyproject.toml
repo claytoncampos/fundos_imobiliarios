@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fundos-imobiliarios"
+version = "0.1.0"
+description = "scraping founds explorer"
+authors = ["clayton.campos <clayton.almeida.campos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+yagmail = "^0.15.293"
+requests-html = "^0.10.0"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+rich = "^13.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
